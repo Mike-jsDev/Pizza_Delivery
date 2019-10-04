@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styleCart.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Cart</h1>
+    <div class="container">
+        <main class="main">
+        </main>
+        <aside>
+            <div class="info"></div>
+            <div class="delivery">
+                <select id="deliverySelect">
+                    <option value="Новая Почта">Новая Почта</option>
+                    <option value="Укр Почта">Укр Почта</option>
+                    <option value="EMS">EMS</option>
+                    <option value="DHL">DHL</option>
+                </select>
+                <label for="fullName">Full Name</label>
+                <input type="text" placeholder="Enter your Full Name" id="fullName">
+                <label for="email">Email</label>
+                <input type="email" placeholder="Enter your Email" id="email">
+                <button id="createOrder">Create order</button>
+            </div>
+        </aside>
+
+    </div>
+    <script src="pizzaList.js"></script>
+    <script src="cart.js"></script>
+</body>
+
+</html>

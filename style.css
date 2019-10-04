@@ -1,0 +1,76 @@
+#pizzasContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+
+#input {
+  margin: 20px;
+  width: 50%;
+  height: 50px;
+  font-size: 24px;
+}
+
+.pizza {
+  min-width: 300px;
+  border: 1px solid red;
+  padding: 5px 10px;
+}
+
+.modal {
+  display: none;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, .5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  border: none;
+  background: transparent;
+  color: white;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.modal .modal-window {
+  width: 70%;
+  height: 300px;
+  padding: 10px 20px;
+  background: white;
+  overflow: auto;
+}
+
+.modal .modal-window .pizza {
+  border: none;
+}
+
+.active {
+  display: flex;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cart {
+  border: 1px solid black;
+  padding: 5px 10px;
+  font-size: 30px;
+  cursor: pointer;
+}
